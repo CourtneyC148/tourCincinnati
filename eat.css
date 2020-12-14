@@ -1,0 +1,159 @@
+/* Header section */
+#header-eat-section {
+    background-image: linear-gradient( 
+        to right bottom,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)),
+    url("../assets/food/eats3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+.header-eat-text-container {
+    padding-top: 13%;
+    color: #ffffff;
+}
+.header-eat-text-container .line {
+    border-top: 0.2rem solid #ffffff;
+    width: 5rem;
+}
+.header-eat-text-container h1 {
+    font-size: 3rem;
+    line-height: 5.5rem;
+}
+.header-eat-text-container h1 span {
+    letter-spacing: 0.3rem;
+    font-size: 5.5rem;
+    color: #fe5000;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+.header-eat-text-container p {
+    line-height: 2.5rem;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+/* places to eat section */
+.place-to-eat-section {
+    margin-top: 12rem;
+    margin-bottom: 10rem;
+}
+
+.place-to-eat-section img {
+    width: 40rem;
+    height: auto;
+    max-width: 100%;
+}
+.place-to-eat-section .text {
+    align-self: center;
+}
+.place-to-eat-section p {
+    font-weight: lighter;
+    line-height: 2;
+    text-align: justify;
+}
+/* eats section */
+.title {
+    font-size: 3rem;
+    color: #041e42;
+    text-transform: capitalize;
+}
+.eats-section {
+    margin-top: 3rem;
+    padding: 5rem 6rem;
+    background-color: #f5f5f5;
+    width: 75%;
+    margin-bottom: 10rem;
+}
+.eats-container .line {
+    border-top: 0.2rem solid #fe5000;
+    width: 5rem;
+}
+.eats-container h2 {
+    font-size: 2.2rem;
+    color: #041e42;
+}
+.eats-container h2 span {
+    font-size: 3rem;
+}
+.eats-container p {
+    text-align: justify;
+}
+.eats-section img {
+    width: 40rem;
+    border-radius: 5%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.eat-right {
+    float: right;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width:991px) {
+    .header-eat-text-container {
+        padding-top: 20% !important;
+    }
+  
+}
+
+@media screen and (max-width:567px) {
+    .header-eat-text-container {
+        padding-top: 30% !important;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .header-eat-text-container h1 {
+        font-size: 2.5rem;
+    }
+    .header-eat-text-container h1 span {
+        font-size: 4rem;
+    }
+    .header-eat-text-container p br {
+        display: none;
+    }
+    .place-to-eat-section p {
+        padding: 0 3rem;
+    }
+    .eats-section {
+        width: 100%;
+        padding: 4rem 3rem;
+        text-align: center;
+    }
+    .eats-section .line {
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width:350px) {
+    #header-eat-section {
+        border-bottom-left-radius: 0% 0%;
+        border-bottom-right-radius: 0% 0%;
+    }
+    .header-eat-text-container {
+        padding-top: 38% !important;
+        text-align: center;
+    }
+    .header-eat-text-container .line {
+        margin: 0 auto;
+    }
+    .header-eat-text-container h1 {
+        font-size: 2.5rem;
+    }
+    .header-eat-text-container h1 span {
+        font-size: 4rem;
+    }
+    .header-eat-text-container p br {
+        display: none;
+    }
+    .place-to-eat-section p {
+        padding: 0;
+    }
+    
+}

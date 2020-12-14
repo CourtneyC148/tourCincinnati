@@ -1,0 +1,157 @@
+/* Header section */
+#header-shop-section {
+    background-image: linear-gradient( 
+        to right bottom,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)),
+    url("../assets/places/shop1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+.header-shop-text-container {
+    padding-top: 13%;
+    color: #ffffff;
+}
+.header-shop-text-container .line {
+    border-top: 0.2rem solid #ffffff;
+    width: 5rem;
+}
+.header-shop-text-container h1 {
+    font-size: 3rem;
+    line-height: 5.5rem;
+}
+.header-shop-text-container h1 span {
+    letter-spacing: 0.3rem;
+    font-size: 5.5rem;
+    color: #fe5000;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+.header-shop-text-container p {
+    line-height: 2.5rem;
+    font-weight: lighter;
+    text-align: justify;
+}
+.shopping-section {
+    margin: 12rem 0;
+}
+.shop-info-container img {
+    width: 50rem;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -3%);
+}
+.shop-info-container p {
+    line-height: 2;
+    font-weight: lighter;
+    margin: 1rem 3rem;
+}
+
+/* shop section */
+.shop-title {
+    font-size: 3rem;
+    color: #041e42;
+    text-transform: capitalize;
+}
+.shop-section {
+    margin-top: 3rem;
+    padding: 5rem 6rem;
+    background-color: #f5f5f5;
+    width: 75%;
+    margin-bottom: 10rem;
+}
+.shops-container .line {
+    border-top: 0.2rem solid #fe5000;
+    width: 5rem;
+}
+.shops-container h2 {
+    font-size: 2.2rem;
+    color: #041e42;
+}
+.shops-container h2 span {
+    font-size: 3rem;
+}
+.shops-container p {
+    text-align: justify;
+}
+.shop-section img {
+    width: 40rem;
+    border-radius: 5%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.shop-right {
+    float: right;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width:991px) {
+    .header-shop-text-container {
+        padding-top: 20% !important;
+    }
+  
+}
+
+@media screen and (max-width:567px) {
+    .header-shop-text-container {
+        padding-top: 30% !important;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .header-shop-text-container h1 {
+        font-size: 2.5rem;
+    }
+    .header-shop-text-container h1 span {
+        font-size: 4rem;
+    }
+    .header-shop-text-container p br {
+        display: none;
+    }
+    .shop-info-container p {
+        padding: 0 3rem;
+    }
+    .shop-section {
+        width: 100%;
+        padding: 4rem 3rem;
+        text-align: center;
+    }
+    .shop-section .line {
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width:350px) {
+    #header-shop-section {
+        border-bottom-left-radius: 0% 0%;
+        border-bottom-right-radius: 0% 0%;
+    }
+    .header-shop-text-container {
+        padding-top: 38% !important;
+        text-align: center;
+    }
+    .header-shop-text-container .line {
+        margin: 0 auto;
+    }
+    .header-shop-text-container h1 {
+        font-size: 2.5rem;
+    }
+    .header-shop-text-container h1 span {
+        font-size: 4rem;
+    }
+    .header-shop-text-container p br {
+        display: none;
+    }
+    .shop-info-container p {
+        margin: 0;
+        padding: 0
+    }
+    
+}
